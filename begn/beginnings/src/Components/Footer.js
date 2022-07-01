@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Router, useNavigate } from "react-router-dom";
-
+import '../styles/footer.css';
 
 const Footer = () => {
     return (
