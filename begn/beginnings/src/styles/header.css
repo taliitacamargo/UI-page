@@ -1,14 +1,43 @@
-header {
-    background-color: #a6cd29;
-    padding: 10px;
+html, body {
     text-align: center;
+    height: 100%;
+    overflow: hidden;
+  }
+
+header {
+    background-color: #e0da21;
+    padding-top: 35px;
 }
 
-.HeaderTitle {
-    color: #31703b;
-    font-size: 2em;
-    font-weight: bold;
+.text {
+    font-family: 'Roboto Condensed'; 
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    /* top: -48px;
+    position: relative; */
 }
 
+.wrapper {
+    /* position: relative;
+    top: 50%; */
+    transform: translateY(-50%);
+    margin: auto;
+    width: 320px;  
+  }
 
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #19f6e8;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+
+  .wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
 
